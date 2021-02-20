@@ -5,3 +5,4 @@ by hours. In each hour you can click on the text area to make changes and use th
 on the right to save those changes into local storage. The program also highlights the current 
 hour red, past hours grey and future hours green. The current date is also displayed at the top.
 
+https://ryobia.github.io/Scheduler/
