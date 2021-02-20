@@ -6,3 +6,4 @@ on the right to save those changes into local storage. The program also highligh
 hour red, past hours grey and future hours green. The current date is also displayed at the top.
 
 https://ryobia.github.io/Scheduler/
+![preview](https://github.com/Ryobia/Scheduler/blob/main/2021-02-20.png)
