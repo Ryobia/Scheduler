@@ -101,8 +101,46 @@ $("#btnSeventeen").on("click", function(event) {
     saveHours();
 });
 
-
 loadHours();
+
+setInterval(function() {
+    let d = new Date();
+    let h = d.getHours();
+    console.log(h)
+
+    if(h = 2) {
+        $('#hourNine').addClass('present');
+
+    } else if(h = 10) {
+        $('#hourTen').addClass('present');
+
+    } else if(h = 11) {
+        $('#hourEleven').addClass('present');
+
+    } else if(h = 12) {
+        $('#hourTwelve').addClass('present');
+
+    } else if(h = 13) {
+        $('#hourThirteen').addClass('present');
+
+    } else if(h = 14) {
+        $('#hourFourteen').addClass('present');
+
+    } else if(h = 15) {
+        $('#hourFifteen').addClass('present');
+
+    } else if(h = 16) {
+        $('#hourSixteen').addClass('present');
+
+    } else if(h = 17) {
+        $('#hourSeventeen').addClass('present');
+
+    } else {
+
+    }
+}, 1000);
+    
+    
 
 
 $('#currentDay').text(m.format("dddd, MMM do"));
